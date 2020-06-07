@@ -1,0 +1,35 @@
+{
+  "name": "phaser-test",
+  "version": "0.1.0",
+  "description": "try Phaser 3",
+  "main": "index.js",
+  "repository": "git@github.com:pilisenk/phaser-test.git",
+  "author": "pilisenk <pilisenk@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --development",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@typescript-eslint/eslint-plugin": "^3.1.0",
+    "@typescript-eslint/parser": "^3.1.0",
+    "babel-loader": "^8.1.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.20.0",
+    "html-webpack-plugin": "^4.3.0",
+    "prettier": "2.0.5",
+    "typescript": "^3.9.5",
+    "webpack": "^5.0.0-beta.17",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.10.1"
+  }
+}
